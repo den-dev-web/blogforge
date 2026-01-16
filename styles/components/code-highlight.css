@@ -1,0 +1,12 @@
+.code-line {
+  display: block;
+  color: #cbd5f5;
+}
+
+.code-line--keyword {
+  color: #93c5fd;
+}
+
+.code-line--string {
+  color: #fca5a5;
+}

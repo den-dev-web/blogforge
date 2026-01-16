@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="uk" data-lang="uk" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BlogForge — Вхід та реєстрація</title>
+    <meta
+      name="description"
+      content="Увійдіть або створіть акаунт BlogForge через пошту чи Google."
+    />
+    <meta property="og:title" content="BlogForge — Вхід та реєстрація" />
+    <meta
+      property="og:description"
+      content="Увійдіть або створіть акаунт BlogForge через пошту чи Google."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/auth.html" />
+    <meta property="og:image" content="assets/images/popular-2.jpg" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="site-brand" href="index.html">BlogForge</a>
+        <div class="site-header__mobile-actions" aria-label="Navigation">
+          <a class="btn btn--ghost site-auth__button" href="index.html"
+            >На головну</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="auth" data-auth>
+        <div class="container auth__grid">
+          <div class="auth__intro">
+            <span class="tag tag--accent">Доступ</span>
+            <h1>Вхід та реєстрація у BlogForge</h1>
+            <p>
+              Зберігайте добірки, керуйте чернетками та отримуйте персональні
+              рекомендації. Оберіть зручний спосіб входу: пошта або Google.
+            </p>
+            <div class="auth__features">
+              <div class="auth__feature">
+                <span class="auth__feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" role="presentation">
+                    <path
+                      d="M5 12.5l4.2 4.2L19 7.2"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span>Доступ до збережених матеріалів на всіх пристроях.</span>
+              </div>
+              <div class="auth__feature">
+                <span class="auth__feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" role="presentation">
+                    <path
+                      d="M5 12.5l4.2 4.2L19 7.2"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span>Швидке створення добірок та позначення улюбленого.</span>
+              </div>
+              <div class="auth__feature">
+                <span class="auth__feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" role="presentation">
+                    <path
+                      d="M5 12.5l4.2 4.2L19 7.2"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span>Персоналізація стрічки та зручні сповіщення.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="auth__panel">
+            <div class="auth-card" data-auth-panel="login">
+              <div class="auth-card__header">
+                <h2>Вхід</h2>
+                <p>Поверніться до своєї стрічки за лічені секунди.</p>
+              </div>
+              <div class="auth-card__body">
+                <button class="btn btn--google" type="button">
+                  <svg viewBox="0 0 48 48" role="presentation" aria-hidden="true">
+                    <path
+                      fill="#EA4335"
+                      d="M24 9.5c3.1 0 5.8 1.1 7.9 2.9l5.9-5.9C34.1 3.1 29.4 1 24 1 14.9 1 7 6.2 3.2 13.8l6.9 5.4C11.7 13.5 17.3 9.5 24 9.5z"
+                    />
+                    <path
+                      fill="#4285F4"
+                      d="M46.5 24.5c0-1.6-.2-2.7-.5-3.9H24v7.4h12.7c-.3 2-1.6 5.1-4.5 7.1l7 5.4c4.1-3.7 6.3-9.2 6.3-16z"
+                    />
+                    <path
+                      fill="#FBBC05"
+                      d="M10.1 28.2c-.5-1.4-.8-2.9-.8-4.7s.3-3.3.8-4.7l-6.9-5.4C1.1 16.9 0 20.3 0 23.5s1.1 6.6 3.2 9.4l6.9-5.4z"
+                    />
+                    <path
+                      fill="#34A853"
+                      d="M24 46c5.4 0 10-1.8 13.3-4.9l-7-5.4c-1.9 1.3-4.4 2.2-6.3 2.2-6.7 0-12.3-4-13.9-9.7l-6.9 5.4C7 41.8 14.9 46 24 46z"
+                    />
+                  </svg>
+                  Продовжити з Google
+                </button>
+                <div class="auth-divider"><span>або</span></div>
+                <form class="auth-form" data-auth-form>
+                  <label class="form-field">
+                    <span class="form-field__label">Email</span>
+                    <span class="input">
+                      <input
+                        class="input__field"
+                        type="email"
+                        name="email"
+                        placeholder="name@email.com"
+                        autocomplete="email"
+                        required
+                      />
+                    </span>
+                    <small class="form-field__error" data-field-error hidden></small>
+                  </label>
+                  <label class="form-field">
+                    <span class="form-field__label">Пароль</span>
+                    <span class="input">
+                      <input
+                        class="input__field"
+                        type="password"
+                        name="password"
+                        placeholder="Мінімум 8 символів"
+                        autocomplete="current-password"
+                        required
+                      />
+                    </span>
+                    <small class="form-field__error" data-field-error hidden></small>
+                  </label>
+                  <div class="auth-form__row">
+                    <label class="auth-check">
+                      <input type="checkbox" name="remember" />
+                      Запамʼятати мене
+                    </label>
+                    <a class="auth-link" href="#">Забули пароль?</a>
+                  </div>
+                  <div
+                    class="auth-status"
+                    role="status"
+                    aria-live="polite"
+                    data-auth-status
+                  ></div>
+                  <button class="btn btn--primary auth__submit" type="submit">
+                    Увійти
+                  </button>
+                  <p class="auth-switch">
+                    Немає акаунту?
+                    <button
+                      class="auth-link"
+                      type="button"
+                      data-auth-switch="signup"
+                    >
+                      Зареєструватися
+                    </button>
+                  </p>
+                </form>
+              </div>
+            </div>
+
+            <div class="auth-card auth-card--secondary" data-auth-panel="signup" hidden>
+              <div class="auth-card__header">
+                <h2>Реєстрація</h2>
+                <p>Створіть акаунт, щоб коментувати та керувати добірками.</p>
+              </div>
+              <div class="auth-card__body">
+                <button class="btn btn--google" type="button">
+                  <svg viewBox="0 0 48 48" role="presentation" aria-hidden="true">
+                    <path
+                      fill="#EA4335"
+                      d="M24 9.5c3.1 0 5.8 1.1 7.9 2.9l5.9-5.9C34.1 3.1 29.4 1 24 1 14.9 1 7 6.2 3.2 13.8l6.9 5.4C11.7 13.5 17.3 9.5 24 9.5z"
+                    />
+                    <path
+                      fill="#4285F4"
+                      d="M46.5 24.5c0-1.6-.2-2.7-.5-3.9H24v7.4h12.7c-.3 2-1.6 5.1-4.5 7.1l7 5.4c4.1-3.7 6.3-9.2 6.3-16z"
+                    />
+                    <path
+                      fill="#FBBC05"
+                      d="M10.1 28.2c-.5-1.4-.8-2.9-.8-4.7s.3-3.3.8-4.7l-6.9-5.4C1.1 16.9 0 20.3 0 23.5s1.1 6.6 3.2 9.4l6.9-5.4z"
+                    />
+                    <path
+                      fill="#34A853"
+                      d="M24 46c5.4 0 10-1.8 13.3-4.9l-7-5.4c-1.9 1.3-4.4 2.2-6.3 2.2-6.7 0-12.3-4-13.9-9.7l-6.9 5.4C7 41.8 14.9 46 24 46z"
+                    />
+                  </svg>
+                  Зареєструватися з Google
+                </button>
+                <div class="auth-divider"><span>або</span></div>
+                <form class="auth-form" data-auth-form>
+                  <label class="form-field">
+                    <span class="form-field__label">Імʼя та прізвище</span>
+                    <span class="input">
+                      <input
+                        class="input__field"
+                        type="text"
+                        name="fullname"
+                        placeholder="Анна Коваленко"
+                        autocomplete="name"
+                        required
+                      />
+                    </span>
+                    <small class="form-field__error" data-field-error hidden></small>
+                  </label>
+                  <label class="form-field">
+                    <span class="form-field__label">Email</span>
+                    <span class="input">
+                      <input
+                        class="input__field"
+                        type="email"
+                        name="email"
+                        placeholder="name@email.com"
+                        autocomplete="email"
+                        required
+                      />
+                    </span>
+                    <small class="form-field__error" data-field-error hidden></small>
+                  </label>
+                  <label class="form-field">
+                    <span class="form-field__label">Пароль</span>
+                    <span class="input">
+                      <input
+                        class="input__field"
+                        type="password"
+                        name="password"
+                        placeholder="Мінімум 8 символів"
+                        autocomplete="new-password"
+                        required
+                      />
+                    </span>
+                    <small class="form-field__error" data-field-error hidden></small>
+                  </label>
+                  <label class="form-field">
+                    <span class="form-field__label">Повторіть пароль</span>
+                    <span class="input">
+                      <input
+                        class="input__field"
+                        type="password"
+                        name="password-confirm"
+                        data-compare="password"
+                        placeholder="Ще раз пароль"
+                        autocomplete="new-password"
+                        required
+                      />
+                    </span>
+                    <small class="form-field__error" data-field-error hidden></small>
+                  </label>
+                  <div class="form-field form-field--inline">
+                    <label class="auth-check">
+                      <input type="checkbox" name="terms" required />
+                      Я приймаю умови та політику конфіденційності.
+                    </label>
+                    <small class="form-field__error" data-field-error hidden></small>
+                  </div>
+                  <div
+                    class="auth-status"
+                    role="status"
+                    aria-live="polite"
+                    data-auth-status
+                  ></div>
+                  <button class="btn btn--primary auth__submit" type="submit">
+                    Створити акаунт
+                  </button>
+                  <p class="auth-switch">
+                    Вже маєте акаунт?
+                    <button
+                      class="auth-link"
+                      type="button"
+                      data-auth-switch="login"
+                    >
+                      Увійти
+                    </button>
+                  </p>
+                  <small class="auth-note">
+                    Реєструючись, ви погоджуєтесь на обробку персональних даних.
+                  </small>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="scripts/app.js"></script>
+  </body>
+</html>

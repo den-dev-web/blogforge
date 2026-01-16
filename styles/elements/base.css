@@ -1,0 +1,18 @@
+body {
+  font-family: var(--font-body, "Georgia", "Times New Roman", serif);
+  font-size: var(--font-size-body, 1rem);
+  background: var(--color-bg, #ffffff);
+  color: var(--color-text, #111111);
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  display: block;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent, #ff6a00);
+  outline-offset: 2px;
+}

@@ -1,0 +1,16 @@
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: var(--color-border);
+  color: var(--color-muted);
+}
+
+.tag--accent {
+  background: var(--color-status);
+  color: #101010;
+}

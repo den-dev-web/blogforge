@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="uk" data-lang="uk" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BlogForge — Media Platform</title>
+    <meta
+      name="description"
+      content="BlogForge is a modern media platform for articles, reviews, and news."
+    />
+    <meta property="og:title" content="BlogForge — Media Platform" />
+    <meta
+      property="og:description"
+      content="Modern media platform for articles, reviews, and news."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:image" content="assets/images/popular-1.jpg" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="site-brand" href="index.html">BlogForge</a>
+        <nav class="site-nav" aria-label="Primary">
+          <ul class="site-nav__list">
+            <li>
+              <a href="#catalog" data-i18n="categories.technology"
+                >Технології</a
+              >
+            </li>
+            <li>
+              <a href="#catalog" data-i18n="categories.business">Бізнес</a>
+            </li>
+            <li><a href="#catalog" data-i18n="categories.design">Дизайн</a></li>
+            <li><a href="#catalog" data-i18n="categories.science">Наука</a></li>
+            <li>
+              <a href="#catalog" data-i18n="categories.lifestyle">Lifestyle</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="site-actions">
+          <form
+            class="input"
+            role="search"
+            aria-label="Пошук"
+            data-search-form
+            data-i18n-attr="aria-label:ui.searchLabel"
+          >
+            <button
+              class="input__search-button"
+              type="submit"
+              data-search-submit
+              aria-label="Пошук"
+              data-i18n-attr="aria-label:ui.searchLabel"
+            >
+              <svg viewBox="0 0 24 24" role="presentation" aria-hidden="true">
+                <circle
+                  cx="11"
+                  cy="11"
+                  r="6.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                ></circle>
+                <line
+                  x1="16.2"
+                  y1="16.2"
+                  x2="21"
+                  y2="21"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                ></line>
+              </svg>
+            </button>
+            <label class="sr-only" for="search" data-i18n="ui.searchLabel"
+              >Пошук</label
+            >
+            <input
+              class="input__field"
+              type="search"
+              id="search"
+              name="search"
+              placeholder="Пошук статей"
+              data-search
+              data-i18n-placeholder="ui.searchPlaceholder"
+            />
+            <button
+              class="input__button input__clear"
+              type="button"
+              data-search-clear
+              aria-label="Очистити"
+              data-i18n-attr="aria-label:ui.clear"
+              hidden
+            >
+              ×
+            </button>
+          </form>
+          <div class="lang-switch" data-lang-switcher>
+            <button
+              class="lang-switch__toggle"
+              type="button"
+              data-lang-toggle
+              aria-haspopup="listbox"
+              aria-expanded="false"
+              data-i18n-attr="aria-label:ui.languageLabel"
+            >
+              <span class="lang-switch__value" data-lang-current>UA</span>
+            </button>
+            <div
+              class="lang-switch__list"
+              role="listbox"
+              data-i18n-attr="aria-label:ui.languageLabel"
+            >
+              <button
+                class="lang-switch__option"
+                type="button"
+                role="option"
+                data-lang-switch="uk"
+                aria-selected="true"
+              >
+                UA
+              </button>
+              <button
+                class="lang-switch__option"
+                type="button"
+                role="option"
+                data-lang-switch="en"
+                aria-selected="false"
+              >
+                EN
+              </button>
+              <button
+                class="lang-switch__option"
+                type="button"
+                role="option"
+                data-lang-switch="ru"
+                aria-selected="false"
+              >
+                RU
+              </button>
+            </div>
+          </div>
+          <button
+            class="btn btn--ghost btn--icon"
+            type="button"
+            data-theme-toggle
+            data-i18n-attr="aria-label:buttons.toggleTheme"
+            aria-label="Перемкнути тему"
+          >
+            <svg
+              class="theme-toggle__icon"
+              viewBox="0 0 24 24"
+              role="presentation"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.8"></circle>
+              <path
+                d="M12 2.5v2.5M12 19v2.5M2.5 12h2.5M19 12h2.5M5.8 5.8l1.8 1.8M16.4 16.4l1.8 1.8M18.2 5.8l-1.8 1.8M7.6 16.4l-1.8 1.8"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+              ></path>
+            </svg>
+            <span class="sr-only" data-i18n="buttons.toggleTheme">Перемкнути тему</span>
+          </button>
+          <a
+            class="btn btn--ghost site-auth__button"
+            href="auth.html"
+            data-i18n="buttons.auth"
+          >
+            Вхід
+          </a>
+        </div>
+        <div class="site-header__mobile-actions" aria-label="Account and menu">
+          <a
+            class="btn btn--ghost site-auth__button"
+            href="auth.html"
+            data-i18n="buttons.auth"
+          >
+            Вхід
+          </a>
+          <button
+            class="btn btn--ghost site-menu__toggle"
+            type="button"
+            data-menu-toggle
+            aria-expanded="false"
+            aria-controls="site-menu"
+            data-i18n-attr="aria-label:ui.openMenu"
+          >
+            <span class="burger-icon" aria-hidden="true"></span>
+            <span class="sr-only" data-i18n="ui.menu">Меню</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div
+      class="site-menu"
+      id="site-menu"
+      data-menu
+      aria-hidden="true"
+      hidden
+      role="dialog"
+      aria-modal="true"
+      data-i18n-attr="aria-label:ui.menu"
+    >
+      <div class="container site-menu__inner" data-menu-panel>
+        <div class="site-menu__header">
+          <span class="site-menu__title" data-i18n="ui.menu">Меню</span>
+          <button
+            class="btn btn--ghost site-menu__close"
+            type="button"
+            data-menu-close
+            data-i18n-attr="aria-label:ui.closeMenu"
+          >
+            <span class="sr-only" data-i18n="ui.closeMenu">Закрити</span>
+          </button>
+        </div>
+        <button class="menu-search-button" type="button" data-menu-search>
+          <span class="menu-search-button__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="presentation" aria-hidden="true">
+              <circle
+                cx="11"
+                cy="11"
+                r="6.5"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              ></circle>
+              <line
+                x1="16.2"
+                y1="16.2"
+                x2="21"
+                y2="21"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              ></line>
+            </svg>
+          </span>
+          <span data-i18n="ui.searchAction">Search...</span>
+        </button>
+        <nav class="site-menu__nav" aria-label="Mobile">
+          <a href="#catalog" data-i18n="categories.technology">Технології</a>
+          <a href="#catalog" data-i18n="categories.business">Бізнес</a>
+          <a href="#catalog" data-i18n="categories.design">Дизайн</a>
+          <a href="#catalog" data-i18n="categories.science">Наука</a>
+          <a href="#catalog" data-i18n="categories.lifestyle">Lifestyle</a>
+        </nav>
+        <div class="lang-switch" data-lang-switcher>
+          <button
+            class="lang-switch__toggle"
+            type="button"
+            data-lang-toggle
+            aria-haspopup="listbox"
+            aria-expanded="false"
+            data-i18n-attr="aria-label:ui.languageLabel"
+          >
+            <span class="lang-switch__value" data-lang-current>UA</span>
+          </button>
+          <div
+            class="lang-switch__list"
+            role="listbox"
+            data-i18n-attr="aria-label:ui.languageLabel"
+          >
+            <button
+              class="lang-switch__option"
+              type="button"
+              role="option"
+              data-lang-switch="uk"
+              aria-selected="true"
+            >
+              UA
+            </button>
+            <button
+              class="lang-switch__option"
+              type="button"
+              role="option"
+              data-lang-switch="en"
+              aria-selected="false"
+            >
+              EN
+            </button>
+            <button
+              class="lang-switch__option"
+              type="button"
+              role="option"
+              data-lang-switch="ru"
+              aria-selected="false"
+            >
+              RU
+            </button>
+          </div>
+        </div>
+        <button
+          class="btn btn--ghost"
+          type="button"
+          data-theme-toggle
+          data-i18n-attr="aria-label:buttons.toggleTheme"
+          aria-label="Перемкнути тему"
+        >
+          <svg
+            class="theme-toggle__icon"
+            viewBox="0 0 24 24"
+            role="presentation"
+            aria-hidden="true"
+          >
+            <circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.8"></circle>
+            <path
+              d="M12 2.5v2.5M12 19v2.5M2.5 12h2.5M19 12h2.5M5.8 5.8l1.8 1.8M16.4 16.4l1.8 1.8M18.2 5.8l-1.8 1.8M7.6 16.4l-1.8 1.8"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+            ></path>
+          </svg>
+          <span data-i18n="buttons.toggleTheme">Перемкнути тему</span>
+        </button>
+      </div>
+    </div>
+
+    <main>
+      <section
+        class="section section--filters"
+        aria-label="Пошук та фільтри"
+        data-i18n-attr="aria-label:ui.searchFiltersLabel"
+      >
+        <div
+          class="container search-panel"
+          id="search-panel"
+          hidden
+          data-search-panel
+        >
+          <form
+            class="input"
+            role="search"
+            aria-label="Пошук"
+            data-search-form
+            data-i18n-attr="aria-label:ui.searchLabel"
+          >
+            <button
+              class="input__search-button"
+              type="submit"
+              data-search-submit
+              aria-label="Пошук"
+              data-i18n-attr="aria-label:ui.searchLabel"
+            >
+              <svg viewBox="0 0 24 24" role="presentation" aria-hidden="true">
+                <circle
+                  cx="11"
+                  cy="11"
+                  r="6.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                ></circle>
+                <line
+                  x1="16.2"
+                  y1="16.2"
+                  x2="21"
+                  y2="21"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                ></line>
+              </svg>
+            </button>
+            <label
+              class="sr-only"
+              for="search-panel-input"
+              data-i18n="ui.searchLabel"
+              >Пошук</label
+            >
+            <input
+              class="input__field"
+              type="search"
+              id="search-panel-input"
+              name="search"
+              placeholder="Пошук статей"
+              data-search
+              data-i18n-placeholder="ui.searchPlaceholder"
+            />
+            <button
+              class="input__button input__clear"
+              type="button"
+              data-search-clear
+              aria-label="Очистити"
+              data-i18n-attr="aria-label:ui.clear"
+              hidden
+            >
+              ×
+            </button>
+          </form>
+          <div
+            class="search-scope"
+            role="group"
+            aria-label="Где искать"
+            data-i18n-attr="aria-label:ui.searchScopeLabel"
+          >
+            <div class="search-scope__list" role="radiogroup">
+              <label class="search-scope__option">
+                <input
+                  class="search-scope__input"
+                  type="radio"
+                  name="search-scope"
+                  value="posts"
+                  checked
+                />
+                <span class="search-scope__text" data-i18n="ui.searchScopePosts"
+                  >Посты</span
+                >
+              </label>
+              <label class="search-scope__option">
+                <input
+                  class="search-scope__input"
+                  type="radio"
+                  name="search-scope"
+                  value="people"
+                />
+                <span
+                  class="search-scope__text"
+                  data-i18n="ui.searchScopePeople"
+                  >Люди</span
+                >
+              </label>
+              <label class="search-scope__option">
+                <input
+                  class="search-scope__input"
+                  type="radio"
+                  name="search-scope"
+                  value="tags"
+                />
+                <span class="search-scope__text" data-i18n="ui.searchScopeTags"
+                  >Теги</span
+                >
+              </label>
+              <label class="search-scope__option">
+                <input
+                  class="search-scope__input"
+                  type="radio"
+                  name="search-scope"
+                  value="comments"
+                />
+                <span
+                  class="search-scope__text"
+                  data-i18n="ui.searchScopeComments"
+                  >Комментарии</span
+                >
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="filters-bar" data-filter-bar>
+            <button
+              class="filter-pill"
+              type="button"
+              aria-pressed="true"
+              data-filter-item="current"
+              data-i18n="ui.filtersCurrent"
+            >
+              Актуальное
+            </button>
+            <button
+              class="filter-pill"
+              type="button"
+              aria-pressed="false"
+              data-filter-item="latest"
+              data-i18n="ui.filtersLatest"
+            >
+              Последнее
+            </button>
+            <details class="filter-dropdown" data-filter-group>
+              <summary
+                class="filter-pill"
+                aria-pressed="false"
+                data-filter-item="best"
+              >
+                <span data-i18n="ui.filtersBest">Лучшее</span>
+                <span class="filter-chevron" aria-hidden="true"></span>
+              </summary>
+              <div
+                class="filter-dropdown__menu"
+                role="listbox"
+                aria-label="Період"
+                data-i18n-attr="aria-label:ui.filtersPeriodLabel"
+                data-filter-subgroup
+              >
+                <button
+                  class="filter-option"
+                  type="button"
+                  role="option"
+                  aria-pressed="true"
+                  data-filter-subitem="week"
+                  data-i18n="ui.filtersWeek"
+                >
+                  Неделя
+                </button>
+                <button
+                  class="filter-option"
+                  type="button"
+                  role="option"
+                  aria-pressed="false"
+                  data-filter-subitem="month"
+                  data-i18n="ui.filtersMonth"
+                >
+                  Месяц
+                </button>
+                <button
+                  class="filter-option"
+                  type="button"
+                  role="option"
+                  aria-pressed="false"
+                  data-filter-subitem="year"
+                  data-i18n="ui.filtersYear"
+                >
+                  Год
+                </button>
+                <button
+                  class="filter-option"
+                  type="button"
+                  role="option"
+                  aria-pressed="false"
+                  data-filter-subitem="all"
+                  data-i18n="ui.filtersAll"
+                >
+                  Все
+                </button>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+      <section class="reveal" id="catalog" aria-labelledby="catalog-title">
+        <!-- section -->
+        <div class="container">
+          <div
+            class="masonry"
+            data-catalog
+            data-source="data/articles.json"
+            data-page-size="6"
+            data-state="loading"
+          ></div>
+          <p class="catalog-status" data-catalog-status aria-live="polite"></p>
+          <div class="load-more-sentinel" data-load-more-sentinel></div>
+        </div>
+      </section>
+      <div class="container">
+        <div class="divider" aria-hidden="true"></div>
+      </div>
+
+      <section class="section reveal" aria-labelledby="popular-title">
+        <div class="container">
+          <div class="section__header">
+            <h2 id="popular-title" data-i18n="sections.popular">
+              Популярне зараз
+            </h2>
+          </div>
+          <div
+            class="grid grid--cards"
+            data-popular-grid
+            data-source="data/articles.json"
+            data-count="3"
+          ></div>
+        </div>
+      </section>
+
+      <section class="section reveal" aria-labelledby="media-title">
+        <div class="container">
+          <div class="section__header">
+            <h2 id="media-title" data-i18n="sections.media">
+              Подкасти та відео
+            </h2>
+          </div>
+          <div
+            class="grid grid--cards"
+            data-media-grid
+            data-source="data/articles.json"
+            data-count="2"
+          ></div>
+        </div>
+      </section>
+
+      <section
+        class="section reveal"
+        id="subscribe"
+        aria-labelledby="subscribe-title"
+      >
+        <div class="container stack">
+          <div class="section__header">
+            <h2 id="subscribe-title" data-i18n="sections.subscribe">
+              Підписатися на оновлення
+            </h2>
+          </div>
+          <form class="stack" data-subscribe>
+            <label for="email" data-i18n="forms.emailLabel">Email</label>
+            <p
+              class="site-footer__meta"
+              id="email-hint"
+              data-i18n="forms.emailHint"
+            >
+              Щотижневий дайджест без спаму.
+            </p>
+            <div class="input">
+              <input
+                class="input__field"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="you@example.com"
+                required
+                aria-describedby="email-hint subscribe-status"
+              />
+            </div>
+            <button
+              class="btn btn--primary"
+              type="submit"
+              data-i18n="buttons.joinList"
+            >
+              Приєднатися
+            </button>
+            <p
+              class="site-footer__meta"
+              id="subscribe-status"
+              aria-live="polite"
+              data-subscribe-status
+            ></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <a class="site-brand" href="index.html">BlogForge</a>
+        <nav class="site-footer__nav" aria-label="Footer">
+          <a href="#catalog" data-i18n="footer.catalog">Каталог</a>
+          <a href="#subscribe" data-i18n="footer.subscribe">Підписка</a>
+          <a href="article.html" data-i18n="footer.article">Стаття</a>
+        </nav>
+        <div class="site-footer__social" aria-label="Social">
+          <a href="https://example.com">X</a>
+          <a href="https://example.com">LinkedIn</a>
+          <a href="https://example.com">YouTube</a>
+        </div>
+        <p class="site-footer__meta" data-i18n="footer.meta">
+          Незалежна редакційна студія. Всі права захищені.
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="scripts/app.js"></script>
+  </body>
+</html>
