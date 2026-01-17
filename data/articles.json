@@ -25,14 +25,14 @@
     "featured": true,
     "type": "article",
     "image": {
-      "avif": "../assets/images/remote/6e9e8d513249851aefc8cc2d48d30caa092c66b1.avif",
-      "webp": "../assets/images/remote/de42609a32ab72b4ba898cefdd0aaec3771394e3.webp",
-      "jpg": "../assets/images/remote/8222eb707c61b1e4390e2a36f609e27222343aa3.jpg",
+      "avif": "assets/images/remote/6e9e8d513249851aefc8cc2d48d30caa092c66b1.avif",
+      "webp": "assets/images/remote/de42609a32ab72b4ba898cefdd0aaec3771394e3.webp",
+      "jpg": "assets/images/remote/8222eb707c61b1e4390e2a36f609e27222343aa3.jpg",
       "alt": "Server racks with blue lights",
       "srcset": {
-        "avif": "../assets/images/remote/7e7f394b698f885cac285aef152fff941238b9fb.avif 400w, ../assets/images/remote/ffe2ce71bcc715bd05c145ca93e8510260fe1c61.avif 800w, ../assets/images/remote/6e9e8d513249851aefc8cc2d48d30caa092c66b1.avif 1200w",
-        "webp": "../assets/images/remote/1f9ba011f26c3b1a6c0267206328fdb5e4deba01.webp 400w, ../assets/images/remote/024bba5068db558648c84c50fc6727bacf2e05c0.webp 800w, ../assets/images/remote/de42609a32ab72b4ba898cefdd0aaec3771394e3.webp 1200w",
-        "jpg": "../assets/images/remote/1880644c8270d78d7e74468f3087a98a5a4c1109.jpg 400w, ../assets/images/remote/3cad47d653e84dda12e4192524b75ca82888fddf.jpg 800w, ../assets/images/remote/8222eb707c61b1e4390e2a36f609e27222343aa3.jpg 1200w"
+        "avif": "assets/images/remote/7e7f394b698f885cac285aef152fff941238b9fb.avif 400w, assets/images/remote/ffe2ce71bcc715bd05c145ca93e8510260fe1c61.avif 800w, assets/images/remote/6e9e8d513249851aefc8cc2d48d30caa092c66b1.avif 1200w",
+        "webp": "assets/images/remote/1f9ba011f26c3b1a6c0267206328fdb5e4deba01.webp 400w, assets/images/remote/024bba5068db558648c84c50fc6727bacf2e05c0.webp 800w, assets/images/remote/de42609a32ab72b4ba898cefdd0aaec3771394e3.webp 1200w",
+        "jpg": "assets/images/remote/1880644c8270d78d7e74468f3087a98a5a4c1109.jpg 400w, assets/images/remote/3cad47d653e84dda12e4192524b75ca82888fddf.jpg 800w, assets/images/remote/8222eb707c61b1e4390e2a36f609e27222343aa3.jpg 1200w"
       }
     }
   },
@@ -61,14 +61,14 @@
     "featured": false,
     "type": "article",
     "image": {
-      "avif": "../assets/images/remote/af0067197ca5bfb295654c02650f79d29b0e5083.avif",
-      "webp": "../assets/images/remote/04997888111d923bc2d60e159ebad08da4dbadc2.webp",
-      "jpg": "../assets/images/remote/b898adcb546192c54670c8d273cb805ccf95b0bb.jpg",
+      "avif": "assets/images/remote/af0067197ca5bfb295654c02650f79d29b0e5083.avif",
+      "webp": "assets/images/remote/04997888111d923bc2d60e159ebad08da4dbadc2.webp",
+      "jpg": "assets/images/remote/b898adcb546192c54670c8d273cb805ccf95b0bb.jpg",
       "alt": "City skyline at dusk",
       "srcset": {
-        "avif": "../assets/images/remote/91565b591f3667b638debc411754844bfb578778.avif 400w, ../assets/images/remote/c1c738b5df78c0a933c7bee5f7dee8aa30bb4f08.avif 800w, ../assets/images/remote/af0067197ca5bfb295654c02650f79d29b0e5083.avif 1200w",
-        "webp": "../assets/images/remote/93163e00accf766d0c2d59b5f281c6b43290ac0a.webp 400w, ../assets/images/remote/75a903b85ff2d4786f1a969ac730748bbc6ee4b7.webp 800w, ../assets/images/remote/04997888111d923bc2d60e159ebad08da4dbadc2.webp 1200w",
-        "jpg": "../assets/images/remote/5ecd718e563c6843209e545601fa45fc082dd90c.jpg 400w, ../assets/images/remote/66ab058ff19e11d420336fb068007380beb6f173.jpg 800w, ../assets/images/remote/b898adcb546192c54670c8d273cb805ccf95b0bb.jpg 1200w"
+        "avif": "assets/images/remote/91565b591f3667b638debc411754844bfb578778.avif 400w, assets/images/remote/c1c738b5df78c0a933c7bee5f7dee8aa30bb4f08.avif 800w, assets/images/remote/af0067197ca5bfb295654c02650f79d29b0e5083.avif 1200w",
+        "webp": "assets/images/remote/93163e00accf766d0c2d59b5f281c6b43290ac0a.webp 400w, assets/images/remote/75a903b85ff2d4786f1a969ac730748bbc6ee4b7.webp 800w, assets/images/remote/04997888111d923bc2d60e159ebad08da4dbadc2.webp 1200w",
+        "jpg": "assets/images/remote/5ecd718e563c6843209e545601fa45fc082dd90c.jpg 400w, assets/images/remote/66ab058ff19e11d420336fb068007380beb6f173.jpg 800w, assets/images/remote/b898adcb546192c54670c8d273cb805ccf95b0bb.jpg 1200w"
       }
     }
   },
@@ -96,14 +96,14 @@
     "featured": false,
     "type": "article",
     "image": {
-      "avif": "../assets/images/remote/32c4329ad905bc5080a851c07bc46dab05be32d4.avif",
-      "webp": "../assets/images/remote/7c81901729d47db30406dcb5f012a5f78941af7a.webp",
-      "jpg": "../assets/images/remote/c2188e42492bb9346ea37f3687e180b2433494dc.jpg",
+      "avif": "assets/images/remote/32c4329ad905bc5080a851c07bc46dab05be32d4.avif",
+      "webp": "assets/images/remote/7c81901729d47db30406dcb5f012a5f78941af7a.webp",
+      "jpg": "assets/images/remote/c2188e42492bb9346ea37f3687e180b2433494dc.jpg",
       "alt": "Notebook with typography samples",
       "srcset": {
-        "avif": "../assets/images/remote/8aad7e96d6e516c44552e505eb15098affd57d03.avif 400w, ../assets/images/remote/ebe2c9bfbbd2f576602084476f205181bddcc65a.avif 800w, ../assets/images/remote/32c4329ad905bc5080a851c07bc46dab05be32d4.avif 1200w",
-        "webp": "../assets/images/remote/16f526b8d5cb0303ee47b81806b44075e253d653.webp 400w, ../assets/images/remote/db70c015074def5523f35c2b222861f056a52c38.webp 800w, ../assets/images/remote/7c81901729d47db30406dcb5f012a5f78941af7a.webp 1200w",
-        "jpg": "../assets/images/remote/6866b447660bd52b826856d398f444c580b323f3.jpg 400w, ../assets/images/remote/ddf5ec264b522bd9ad25aa10baf34286ab3fd289.jpg 800w, ../assets/images/remote/c2188e42492bb9346ea37f3687e180b2433494dc.jpg 1200w"
+        "avif": "assets/images/remote/8aad7e96d6e516c44552e505eb15098affd57d03.avif 400w, assets/images/remote/ebe2c9bfbbd2f576602084476f205181bddcc65a.avif 800w, assets/images/remote/32c4329ad905bc5080a851c07bc46dab05be32d4.avif 1200w",
+        "webp": "assets/images/remote/16f526b8d5cb0303ee47b81806b44075e253d653.webp 400w, assets/images/remote/db70c015074def5523f35c2b222861f056a52c38.webp 800w, assets/images/remote/7c81901729d47db30406dcb5f012a5f78941af7a.webp 1200w",
+        "jpg": "assets/images/remote/6866b447660bd52b826856d398f444c580b323f3.jpg 400w, assets/images/remote/ddf5ec264b522bd9ad25aa10baf34286ab3fd289.jpg 800w, assets/images/remote/c2188e42492bb9346ea37f3687e180b2433494dc.jpg 1200w"
       }
     }
   },
@@ -131,14 +131,14 @@
     "featured": true,
     "type": "article",
     "image": {
-      "avif": "../assets/images/remote/b6c606cc5a03a92b444247019ac7252e5e25dd3d.avif",
-      "webp": "../assets/images/remote/d45e71608d03afa0137dfa173a211e567fb1eb02.webp",
-      "jpg": "../assets/images/remote/6353904311dd3a066bc2e1e02f72c55f99f2bca3.jpg",
+      "avif": "assets/images/remote/b6c606cc5a03a92b444247019ac7252e5e25dd3d.avif",
+      "webp": "assets/images/remote/d45e71608d03afa0137dfa173a211e567fb1eb02.webp",
+      "jpg": "assets/images/remote/6353904311dd3a066bc2e1e02f72c55f99f2bca3.jpg",
       "alt": "Lab equipment and notebooks",
       "srcset": {
-        "avif": "../assets/images/remote/3123cb54311422b8bd4673c69d7105fddd02e1c0.avif 400w, ../assets/images/remote/e9fddeb209771271e8d783ba1286d27841b16025.avif 800w, ../assets/images/remote/b6c606cc5a03a92b444247019ac7252e5e25dd3d.avif 1200w",
-        "webp": "../assets/images/remote/ce93418524ad0b560683367875e7c357d8e0d098.webp 400w, ../assets/images/remote/bad4def03f5429bf5600c0b51c6f7acb0412d2fe.webp 800w, ../assets/images/remote/d45e71608d03afa0137dfa173a211e567fb1eb02.webp 1200w",
-        "jpg": "../assets/images/remote/d817a53823733e3e8bddb7190923adf7be7f978c.jpg 400w, ../assets/images/remote/212262b0574d034d21d4bd13fd2b4dc89b360dad.jpg 800w, ../assets/images/remote/6353904311dd3a066bc2e1e02f72c55f99f2bca3.jpg 1200w"
+        "avif": "assets/images/remote/3123cb54311422b8bd4673c69d7105fddd02e1c0.avif 400w, assets/images/remote/e9fddeb209771271e8d783ba1286d27841b16025.avif 800w, assets/images/remote/b6c606cc5a03a92b444247019ac7252e5e25dd3d.avif 1200w",
+        "webp": "assets/images/remote/ce93418524ad0b560683367875e7c357d8e0d098.webp 400w, assets/images/remote/bad4def03f5429bf5600c0b51c6f7acb0412d2fe.webp 800w, assets/images/remote/d45e71608d03afa0137dfa173a211e567fb1eb02.webp 1200w",
+        "jpg": "assets/images/remote/d817a53823733e3e8bddb7190923adf7be7f978c.jpg 400w, assets/images/remote/212262b0574d034d21d4bd13fd2b4dc89b360dad.jpg 800w, assets/images/remote/6353904311dd3a066bc2e1e02f72c55f99f2bca3.jpg 1200w"
       }
     }
   },
@@ -166,14 +166,14 @@
     "featured": false,
     "type": "article",
     "image": {
-      "avif": "../assets/images/remote/68ce1af189dc3eda1583b52419a1f5779b65b210.avif",
-      "webp": "../assets/images/remote/e3ee94f8e75a7e2cc85ead69b2e2b1e7cadc2ffc.webp",
-      "jpg": "../assets/images/remote/763523775f2089b507ce1db21a85f1584895f236.jpg",
+      "avif": "assets/images/remote/68ce1af189dc3eda1583b52419a1f5779b65b210.avif",
+      "webp": "assets/images/remote/e3ee94f8e75a7e2cc85ead69b2e2b1e7cadc2ffc.webp",
+      "jpg": "assets/images/remote/763523775f2089b507ce1db21a85f1584895f236.jpg",
       "alt": "Person journaling with coffee",
       "srcset": {
-        "avif": "../assets/images/remote/569cb497253ffec7996353456d9e76dda60657c5.avif 400w, ../assets/images/remote/50d3a63acedd3d363baa7d03121288b4e0052939.avif 800w, ../assets/images/remote/68ce1af189dc3eda1583b52419a1f5779b65b210.avif 1200w",
-        "webp": "../assets/images/remote/5af92e350cfc212f65f2e902f2d2f9e33bb12de2.webp 400w, ../assets/images/remote/e2665ea07ca37bc48de7a36f43b6f0e924abcbac.webp 800w, ../assets/images/remote/e3ee94f8e75a7e2cc85ead69b2e2b1e7cadc2ffc.webp 1200w",
-        "jpg": "../assets/images/remote/080201639ba27e52433f8ca92d2e583925ff29bf.jpg 400w, ../assets/images/remote/f69f861125cd8ffcbe21b04501f483923da2456b.jpg 800w, ../assets/images/remote/763523775f2089b507ce1db21a85f1584895f236.jpg 1200w"
+        "avif": "assets/images/remote/569cb497253ffec7996353456d9e76dda60657c5.avif 400w, assets/images/remote/50d3a63acedd3d363baa7d03121288b4e0052939.avif 800w, assets/images/remote/68ce1af189dc3eda1583b52419a1f5779b65b210.avif 1200w",
+        "webp": "assets/images/remote/5af92e350cfc212f65f2e902f2d2f9e33bb12de2.webp 400w, assets/images/remote/e2665ea07ca37bc48de7a36f43b6f0e924abcbac.webp 800w, assets/images/remote/e3ee94f8e75a7e2cc85ead69b2e2b1e7cadc2ffc.webp 1200w",
+        "jpg": "assets/images/remote/080201639ba27e52433f8ca92d2e583925ff29bf.jpg 400w, assets/images/remote/f69f861125cd8ffcbe21b04501f483923da2456b.jpg 800w, assets/images/remote/763523775f2089b507ce1db21a85f1584895f236.jpg 1200w"
       }
     }
   },
@@ -201,14 +201,14 @@
     "featured": false,
     "type": "article",
     "image": {
-      "avif": "../assets/images/remote/24ec2d34b0af2c0f23ea7ba6711f2b7e62d50bff.avif",
-      "webp": "../assets/images/remote/f97ba8fa3afe005b32e800029ec1dd09f387b52a.webp",
-      "jpg": "../assets/images/remote/314a49d71b08ed2907bc78857efab209ae445cb7.jpg",
+      "avif": "assets/images/remote/24ec2d34b0af2c0f23ea7ba6711f2b7e62d50bff.avif",
+      "webp": "assets/images/remote/f97ba8fa3afe005b32e800029ec1dd09f387b52a.webp",
+      "jpg": "assets/images/remote/314a49d71b08ed2907bc78857efab209ae445cb7.jpg",
       "alt": "Team planning on sticky notes",
       "srcset": {
-        "avif": "../assets/images/remote/3835ac2088035cab122a108d8676db2214d8e483.avif 400w, ../assets/images/remote/bc6cafcf759cdd442e4f8b53050c6957cca4cabc.avif 800w, ../assets/images/remote/24ec2d34b0af2c0f23ea7ba6711f2b7e62d50bff.avif 1200w",
-        "webp": "../assets/images/remote/b70dcc1d0b289835cede907b08f4c83e3edf4682.webp 400w, ../assets/images/remote/57f365032568c8461600fb4bf3ec798de31c6529.webp 800w, ../assets/images/remote/f97ba8fa3afe005b32e800029ec1dd09f387b52a.webp 1200w",
-        "jpg": "../assets/images/remote/cb6ee275931394cf840102c19ec4499fea323930.jpg 400w, ../assets/images/remote/5d16a8330ddc7f4c9a7102837d95e6a523852cb3.jpg 800w, ../assets/images/remote/314a49d71b08ed2907bc78857efab209ae445cb7.jpg 1200w"
+        "avif": "assets/images/remote/3835ac2088035cab122a108d8676db2214d8e483.avif 400w, assets/images/remote/bc6cafcf759cdd442e4f8b53050c6957cca4cabc.avif 800w, assets/images/remote/24ec2d34b0af2c0f23ea7ba6711f2b7e62d50bff.avif 1200w",
+        "webp": "assets/images/remote/b70dcc1d0b289835cede907b08f4c83e3edf4682.webp 400w, assets/images/remote/57f365032568c8461600fb4bf3ec798de31c6529.webp 800w, assets/images/remote/f97ba8fa3afe005b32e800029ec1dd09f387b52a.webp 1200w",
+        "jpg": "assets/images/remote/cb6ee275931394cf840102c19ec4499fea323930.jpg 400w, assets/images/remote/5d16a8330ddc7f4c9a7102837d95e6a523852cb3.jpg 800w, assets/images/remote/314a49d71b08ed2907bc78857efab209ae445cb7.jpg 1200w"
       }
     }
   },
@@ -236,14 +236,14 @@
     "featured": false,
     "type": "article",
     "image": {
-      "avif": "../assets/images/remote/f3c3516f5e9508815152adc241806e7d0e83ff32.avif",
-      "webp": "../assets/images/remote/bdca9116edfafedfe74b9c81314d6c4ee7b0680a.webp",
-      "jpg": "../assets/images/remote/d0e8181285c5d716a2994b70a157db157f0725f6.jpg",
+      "avif": "assets/images/remote/f3c3516f5e9508815152adc241806e7d0e83ff32.avif",
+      "webp": "assets/images/remote/bdca9116edfafedfe74b9c81314d6c4ee7b0680a.webp",
+      "jpg": "assets/images/remote/d0e8181285c5d716a2994b70a157db157f0725f6.jpg",
       "alt": "Laptop with design tools",
       "srcset": {
-        "avif": "../assets/images/remote/60f0383dfa97085f24e7eb80eaaf2226089dbb95.avif 400w, ../assets/images/remote/8085325fa847c51296b3c429bfc4e571c8f1646f.avif 800w, ../assets/images/remote/f3c3516f5e9508815152adc241806e7d0e83ff32.avif 1200w",
-        "webp": "../assets/images/remote/c949341f9c647f7e57a3d3c8594e9897b836d7e2.webp 400w, ../assets/images/remote/e5636bac28ea80600938be4622f4b926b64fe2e6.webp 800w, ../assets/images/remote/bdca9116edfafedfe74b9c81314d6c4ee7b0680a.webp 1200w",
-        "jpg": "../assets/images/remote/cb1ffe3a4b12c3b176ca92afbf3001e9c99ba749.jpg 400w, ../assets/images/remote/f64b8a968b1ed65c5225c512ceaeeaccf11fdd99.jpg 800w, ../assets/images/remote/d0e8181285c5d716a2994b70a157db157f0725f6.jpg 1200w"
+        "avif": "assets/images/remote/60f0383dfa97085f24e7eb80eaaf2226089dbb95.avif 400w, assets/images/remote/8085325fa847c51296b3c429bfc4e571c8f1646f.avif 800w, assets/images/remote/f3c3516f5e9508815152adc241806e7d0e83ff32.avif 1200w",
+        "webp": "assets/images/remote/c949341f9c647f7e57a3d3c8594e9897b836d7e2.webp 400w, assets/images/remote/e5636bac28ea80600938be4622f4b926b64fe2e6.webp 800w, assets/images/remote/bdca9116edfafedfe74b9c81314d6c4ee7b0680a.webp 1200w",
+        "jpg": "assets/images/remote/cb1ffe3a4b12c3b176ca92afbf3001e9c99ba749.jpg 400w, assets/images/remote/f64b8a968b1ed65c5225c512ceaeeaccf11fdd99.jpg 800w, assets/images/remote/d0e8181285c5d716a2994b70a157db157f0725f6.jpg 1200w"
       }
     }
   },
@@ -265,14 +265,14 @@
     "featured": false,
     "type": "article",
     "image": {
-      "avif": "../assets/images/remote/32c4329ad905bc5080a851c07bc46dab05be32d4.avif",
-      "webp": "../assets/images/remote/7c81901729d47db30406dcb5f012a5f78941af7a.webp",
-      "jpg": "../assets/images/remote/c2188e42492bb9346ea37f3687e180b2433494dc.jpg",
+      "avif": "assets/images/remote/32c4329ad905bc5080a851c07bc46dab05be32d4.avif",
+      "webp": "assets/images/remote/7c81901729d47db30406dcb5f012a5f78941af7a.webp",
+      "jpg": "assets/images/remote/c2188e42492bb9346ea37f3687e180b2433494dc.jpg",
       "alt": "Research notes and sketches",
       "srcset": {
-        "avif": "../assets/images/remote/8aad7e96d6e516c44552e505eb15098affd57d03.avif 400w, ../assets/images/remote/ebe2c9bfbbd2f576602084476f205181bddcc65a.avif 800w, ../assets/images/remote/32c4329ad905bc5080a851c07bc46dab05be32d4.avif 1200w",
-        "webp": "../assets/images/remote/16f526b8d5cb0303ee47b81806b44075e253d653.webp 400w, ../assets/images/remote/db70c015074def5523f35c2b222861f056a52c38.webp 800w, ../assets/images/remote/7c81901729d47db30406dcb5f012a5f78941af7a.webp 1200w",
-        "jpg": "../assets/images/remote/6866b447660bd52b826856d398f444c580b323f3.jpg 400w, ../assets/images/remote/ddf5ec264b522bd9ad25aa10baf34286ab3fd289.jpg 800w, ../assets/images/remote/c2188e42492bb9346ea37f3687e180b2433494dc.jpg 1200w"
+        "avif": "assets/images/remote/8aad7e96d6e516c44552e505eb15098affd57d03.avif 400w, assets/images/remote/ebe2c9bfbbd2f576602084476f205181bddcc65a.avif 800w, assets/images/remote/32c4329ad905bc5080a851c07bc46dab05be32d4.avif 1200w",
+        "webp": "assets/images/remote/16f526b8d5cb0303ee47b81806b44075e253d653.webp 400w, assets/images/remote/db70c015074def5523f35c2b222861f056a52c38.webp 800w, assets/images/remote/7c81901729d47db30406dcb5f012a5f78941af7a.webp 1200w",
+        "jpg": "assets/images/remote/6866b447660bd52b826856d398f444c580b323f3.jpg 400w, assets/images/remote/ddf5ec264b522bd9ad25aa10baf34286ab3fd289.jpg 800w, assets/images/remote/c2188e42492bb9346ea37f3687e180b2433494dc.jpg 1200w"
       }
     }
   },
@@ -294,14 +294,14 @@
     "featured": false,
     "type": "article",
     "image": {
-      "avif": "../assets/images/remote/721a5eff6a34df5ac9d77330b2dc96ec1c0802db.avif",
-      "webp": "../assets/images/remote/09bcc794675f5391c92941d4950681a7004ad590.webp",
-      "jpg": "../assets/images/remote/027c3249eeb81c131bc8a31fda2238d1a502dcf0.jpg",
+      "avif": "assets/images/remote/721a5eff6a34df5ac9d77330b2dc96ec1c0802db.avif",
+      "webp": "assets/images/remote/09bcc794675f5391c92941d4950681a7004ad590.webp",
+      "jpg": "assets/images/remote/027c3249eeb81c131bc8a31fda2238d1a502dcf0.jpg",
       "alt": "Team collaborating in workspace",
       "srcset": {
-        "avif": "../assets/images/remote/b0fb1d0a173342708ecdb7f8f6fe8297b62ac928.avif 400w, ../assets/images/remote/04bad95845ad5983037dd4a041738a8cd74139d3.avif 800w, ../assets/images/remote/721a5eff6a34df5ac9d77330b2dc96ec1c0802db.avif 1200w",
-        "webp": "../assets/images/remote/f87248c6d6f7eca4b9efeb579f193e55a7885320.webp 400w, ../assets/images/remote/2696c00469c5bb8dfc7ca978ad85f129bae7be36.webp 800w, ../assets/images/remote/09bcc794675f5391c92941d4950681a7004ad590.webp 1200w",
-        "jpg": "../assets/images/remote/54078f9b67b0df9b6030475159519bea5931da92.jpg 400w, ../assets/images/remote/32fd801ace878e334bba840ae8177e40772420bf.jpg 800w, ../assets/images/remote/027c3249eeb81c131bc8a31fda2238d1a502dcf0.jpg 1200w"
+        "avif": "assets/images/remote/b0fb1d0a173342708ecdb7f8f6fe8297b62ac928.avif 400w, assets/images/remote/04bad95845ad5983037dd4a041738a8cd74139d3.avif 800w, assets/images/remote/721a5eff6a34df5ac9d77330b2dc96ec1c0802db.avif 1200w",
+        "webp": "assets/images/remote/f87248c6d6f7eca4b9efeb579f193e55a7885320.webp 400w, assets/images/remote/2696c00469c5bb8dfc7ca978ad85f129bae7be36.webp 800w, assets/images/remote/09bcc794675f5391c92941d4950681a7004ad590.webp 1200w",
+        "jpg": "assets/images/remote/54078f9b67b0df9b6030475159519bea5931da92.jpg 400w, assets/images/remote/32fd801ace878e334bba840ae8177e40772420bf.jpg 800w, assets/images/remote/027c3249eeb81c131bc8a31fda2238d1a502dcf0.jpg 1200w"
       }
     }
   },
@@ -323,14 +323,14 @@
     "featured": false,
     "type": "article",
     "image": {
-      "avif": "../assets/images/remote/32c4329ad905bc5080a851c07bc46dab05be32d4.avif",
-      "webp": "../assets/images/remote/7c81901729d47db30406dcb5f012a5f78941af7a.webp",
-      "jpg": "../assets/images/remote/c2188e42492bb9346ea37f3687e180b2433494dc.jpg",
+      "avif": "assets/images/remote/32c4329ad905bc5080a851c07bc46dab05be32d4.avif",
+      "webp": "assets/images/remote/7c81901729d47db30406dcb5f012a5f78941af7a.webp",
+      "jpg": "assets/images/remote/c2188e42492bb9346ea37f3687e180b2433494dc.jpg",
       "alt": "Desk with notebook and tea",
       "srcset": {
-        "avif": "../assets/images/remote/8aad7e96d6e516c44552e505eb15098affd57d03.avif 400w, ../assets/images/remote/ebe2c9bfbbd2f576602084476f205181bddcc65a.avif 800w, ../assets/images/remote/32c4329ad905bc5080a851c07bc46dab05be32d4.avif 1200w",
-        "webp": "../assets/images/remote/16f526b8d5cb0303ee47b81806b44075e253d653.webp 400w, ../assets/images/remote/db70c015074def5523f35c2b222861f056a52c38.webp 800w, ../assets/images/remote/7c81901729d47db30406dcb5f012a5f78941af7a.webp 1200w",
-        "jpg": "../assets/images/remote/6866b447660bd52b826856d398f444c580b323f3.jpg 400w, ../assets/images/remote/ddf5ec264b522bd9ad25aa10baf34286ab3fd289.jpg 800w, ../assets/images/remote/c2188e42492bb9346ea37f3687e180b2433494dc.jpg 1200w"
+        "avif": "assets/images/remote/8aad7e96d6e516c44552e505eb15098affd57d03.avif 400w, assets/images/remote/ebe2c9bfbbd2f576602084476f205181bddcc65a.avif 800w, assets/images/remote/32c4329ad905bc5080a851c07bc46dab05be32d4.avif 1200w",
+        "webp": "assets/images/remote/16f526b8d5cb0303ee47b81806b44075e253d653.webp 400w, assets/images/remote/db70c015074def5523f35c2b222861f056a52c38.webp 800w, assets/images/remote/7c81901729d47db30406dcb5f012a5f78941af7a.webp 1200w",
+        "jpg": "assets/images/remote/6866b447660bd52b826856d398f444c580b323f3.jpg 400w, assets/images/remote/ddf5ec264b522bd9ad25aa10baf34286ab3fd289.jpg 800w, assets/images/remote/c2188e42492bb9346ea37f3687e180b2433494dc.jpg 1200w"
       }
     }
   },
@@ -352,14 +352,14 @@
     "featured": false,
     "type": "podcast",
     "image": {
-      "avif": "../assets/images/remote/9bde9389259f4fb900f2faa6a7092637c56d5e67.avif",
-      "webp": "../assets/images/remote/f69582c1d39dd90a342d926d184940324227578c.webp",
-      "jpg": "../assets/images/remote/ed71d2fb9351603c56314804339644583142b5ed.jpg",
+      "avif": "assets/images/remote/9bde9389259f4fb900f2faa6a7092637c56d5e67.avif",
+      "webp": "assets/images/remote/f69582c1d39dd90a342d926d184940324227578c.webp",
+      "jpg": "assets/images/remote/ed71d2fb9351603c56314804339644583142b5ed.jpg",
       "alt": "Headphones on a desk",
       "srcset": {
-        "avif": "../assets/images/remote/24ccdcace1369547e2e57f3cb902962b5ff71be4.avif 400w, ../assets/images/remote/d9c6fd642341392529e727a90447662b3d08dfaa.avif 800w, ../assets/images/remote/9bde9389259f4fb900f2faa6a7092637c56d5e67.avif 1200w",
-        "webp": "../assets/images/remote/8d6f5cd0e7f801069a50fa892cdb19c55537aa06.webp 400w, ../assets/images/remote/4f0994c67fb86b067e1adc7c25b8b7310840a6a1.webp 800w, ../assets/images/remote/f69582c1d39dd90a342d926d184940324227578c.webp 1200w",
-        "jpg": "../assets/images/remote/b0a6d1e3c2d0d682034c1cf1b1c24df13601d381.jpg 400w, ../assets/images/remote/d7be9b1cbff843836bd10dec2bb6ebad1fb01e4c.jpg 800w, ../assets/images/remote/ed71d2fb9351603c56314804339644583142b5ed.jpg 1200w"
+        "avif": "assets/images/remote/24ccdcace1369547e2e57f3cb902962b5ff71be4.avif 400w, assets/images/remote/d9c6fd642341392529e727a90447662b3d08dfaa.avif 800w, assets/images/remote/9bde9389259f4fb900f2faa6a7092637c56d5e67.avif 1200w",
+        "webp": "assets/images/remote/8d6f5cd0e7f801069a50fa892cdb19c55537aa06.webp 400w, assets/images/remote/4f0994c67fb86b067e1adc7c25b8b7310840a6a1.webp 800w, assets/images/remote/f69582c1d39dd90a342d926d184940324227578c.webp 1200w",
+        "jpg": "assets/images/remote/b0a6d1e3c2d0d682034c1cf1b1c24df13601d381.jpg 400w, assets/images/remote/d7be9b1cbff843836bd10dec2bb6ebad1fb01e4c.jpg 800w, assets/images/remote/ed71d2fb9351603c56314804339644583142b5ed.jpg 1200w"
       }
     }
   },
@@ -381,14 +381,14 @@
     "featured": false,
     "type": "article",
     "image": {
-      "avif": "../assets/images/remote/f3c3516f5e9508815152adc241806e7d0e83ff32.avif",
-      "webp": "../assets/images/remote/bdca9116edfafedfe74b9c81314d6c4ee7b0680a.webp",
-      "jpg": "../assets/images/remote/d0e8181285c5d716a2994b70a157db157f0725f6.jpg",
+      "avif": "assets/images/remote/f3c3516f5e9508815152adc241806e7d0e83ff32.avif",
+      "webp": "assets/images/remote/bdca9116edfafedfe74b9c81314d6c4ee7b0680a.webp",
+      "jpg": "assets/images/remote/d0e8181285c5d716a2994b70a157db157f0725f6.jpg",
       "alt": "Laptop with analytics dashboard",
       "srcset": {
-        "avif": "../assets/images/remote/60f0383dfa97085f24e7eb80eaaf2226089dbb95.avif 400w, ../assets/images/remote/8085325fa847c51296b3c429bfc4e571c8f1646f.avif 800w, ../assets/images/remote/f3c3516f5e9508815152adc241806e7d0e83ff32.avif 1200w",
-        "webp": "../assets/images/remote/c949341f9c647f7e57a3d3c8594e9897b836d7e2.webp 400w, ../assets/images/remote/e5636bac28ea80600938be4622f4b926b64fe2e6.webp 800w, ../assets/images/remote/bdca9116edfafedfe74b9c81314d6c4ee7b0680a.webp 1200w",
-        "jpg": "../assets/images/remote/cb1ffe3a4b12c3b176ca92afbf3001e9c99ba749.jpg 400w, ../assets/images/remote/f64b8a968b1ed65c5225c512ceaeeaccf11fdd99.jpg 800w, ../assets/images/remote/d0e8181285c5d716a2994b70a157db157f0725f6.jpg 1200w"
+        "avif": "assets/images/remote/60f0383dfa97085f24e7eb80eaaf2226089dbb95.avif 400w, assets/images/remote/8085325fa847c51296b3c429bfc4e571c8f1646f.avif 800w, assets/images/remote/f3c3516f5e9508815152adc241806e7d0e83ff32.avif 1200w",
+        "webp": "assets/images/remote/c949341f9c647f7e57a3d3c8594e9897b836d7e2.webp 400w, assets/images/remote/e5636bac28ea80600938be4622f4b926b64fe2e6.webp 800w, assets/images/remote/bdca9116edfafedfe74b9c81314d6c4ee7b0680a.webp 1200w",
+        "jpg": "assets/images/remote/cb1ffe3a4b12c3b176ca92afbf3001e9c99ba749.jpg 400w, assets/images/remote/f64b8a968b1ed65c5225c512ceaeeaccf11fdd99.jpg 800w, assets/images/remote/d0e8181285c5d716a2994b70a157db157f0725f6.jpg 1200w"
       }
     }
   }
